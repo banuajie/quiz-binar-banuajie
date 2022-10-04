@@ -98,8 +98,8 @@ console.log("\n9. hapus nilai selain 1000 =", filterArray(1000));
 
 //10. gunakan metode filter() untuk pencarian nama pada input variable array diatas:
 // output : temukan nilai sama dengan 1000 = [1000]
-let filterArray2 = function () {
-    let result = array.filter((param) => param == 1000);
+let filterArray2 = function (value) {
+    let result = array.filter((param) => param == value);
     return result;
 };
 console.log("\n10. temukan nilai sama dengan 1000 =", filterArray2(1000));
